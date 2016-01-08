@@ -99,7 +99,7 @@ void ribi::QtThresholdFiltererMainDialog::Test() noexcept
     is_tested = true;
   }
   const TestTimer test_timer(__func__,__FILE__,1.0);
-  QPixmap source(":/thresholdfilterer/images/ToolThresholdFiltererTest.png");
+  QPixmap source(":/thresholdfilterer/images/ThresholdFiltererTest.png");
   assert(!source.isNull());
   assert(source.width() > 0);
   assert(source.height() > 0);

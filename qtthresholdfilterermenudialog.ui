@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>511</width>
-    <height>522</height>
+    <width>508</width>
+    <height>330</height>
    </rect>
   </property>
   <property name="font">
@@ -53,7 +53,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolThresholdFilterer.qrc">:/thresholdfilterer/images/ToolThresholdFiltererTest.png</pixmap>
+      <pixmap resource="ThresholdFilterer.qrc">:/thresholdfilterer/images/ThresholdFiltererTest.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -94,7 +94,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolThresholdFilterer.qrc"/>
+  <include location="ThresholdFilterer.qrc"/>
  </resources>
  <connections/>
 </ui>

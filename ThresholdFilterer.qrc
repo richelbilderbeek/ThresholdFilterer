@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/thresholdfilterer/images">
+        <file>ThresholdFiltererR.png</file>
+        <file>ThresholdFiltererTest.png</file>
+    </qresource>
+</RCC>
