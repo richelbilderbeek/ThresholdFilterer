@@ -1,13 +1,12 @@
-INCLUDEPATH += \
-    ../ThresholdFilterer
+INCLUDEPATH += $$PWD
 
 HEADERS += \
-    ../ThresholdFilterer/thresholdfilterermaindialog.h \
-    ../ThresholdFilterer/thresholdfilterermenudialog.h
+    $$PWD/thresholdfilterermaindialog.h \
+    $$PWD/thresholdfilterermenudialog.h
 
 SOURCES += \
-    ../ThresholdFilterer/thresholdfilterermaindialog.cpp \
-    ../ThresholdFilterer/thresholdfilterermenudialog.cpp
+    $$PWD/thresholdfilterermaindialog.cpp \
+    $$PWD/thresholdfilterermenudialog.cpp
 
 RESOURCES += \
-    ../ThresholdFilterer/ThresholdFilterer.qrc
+    $$PWD/ThresholdFilterer.qrc

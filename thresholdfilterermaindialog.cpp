@@ -7,7 +7,7 @@
 #include <vector>
 #include <boost/scoped_ptr.hpp>
 #include <QImage>
-#include "trace.h"
+
 #pragma GCC diagnostic pop
 
 QPixmap ribi::ThresholdFiltererMainDialog::DoThresholdFiltering(

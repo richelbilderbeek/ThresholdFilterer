@@ -1,14 +1,14 @@
-include(../ThresholdFilterer/ThresholdFiltererConsole.pri)
+include(ThresholdFiltererConsole.pri)
 
 SOURCES += \
-    ../ThresholdFilterer/qtthresholdfilterermaindialog.cpp \
-    ../ThresholdFilterer/qtthresholdfilterermenudialog.cpp
+    $$PWD/qtthresholdfilterermaindialog.cpp \
+    $$PWD/qtthresholdfilterermenudialog.cpp
 
 HEADERS += \
-    ../ThresholdFilterer/qtthresholdfilterermaindialog.h \
-    ../ThresholdFilterer/qtthresholdfilterermenudialog.h
+    $$PWD/qtthresholdfilterermaindialog.h \
+    $$PWD/qtthresholdfilterermenudialog.h
 
 FORMS += \
-    ../ThresholdFilterer/qtthresholdfilterermenudialog.ui \
-    ../ThresholdFilterer/qtthresholdfilterermaindialog.ui
+    $$PWD/qtthresholdfilterermenudialog.ui \
+    $$PWD/qtthresholdfilterermaindialog.ui
 

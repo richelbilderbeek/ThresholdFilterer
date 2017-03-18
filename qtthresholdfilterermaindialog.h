@@ -16,7 +16,7 @@ namespace ribi {
 
 class QtThresholdFiltererMainDialog : public QtHideAndShowDialog
 {
-    Q_OBJECT
+    Q_OBJECT //!OCLINT
     
 public:
   explicit QtThresholdFiltererMainDialog(QWidget *parent = 0);
@@ -35,11 +35,6 @@ private:
 
   QPixmap * m_source;
   QLabel * m_target;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
-
 };
 
 } //~namespace ribi

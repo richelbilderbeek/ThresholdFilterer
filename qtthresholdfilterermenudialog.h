@@ -14,7 +14,7 @@ namespace ribi {
 
 class QtThresholdFiltererMenuDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtThresholdFiltererMenuDialog(QWidget *parent = 0);
@@ -29,10 +29,6 @@ private slots:
 
 private:
   Ui::QtThresholdFiltererMenuDialog *ui;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi

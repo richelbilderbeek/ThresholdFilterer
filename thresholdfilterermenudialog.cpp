@@ -3,19 +3,13 @@
 #include <cassert>
 #include <iostream>
 
-#include "trace.h"
-#include "testtimer.h"
-
 int ribi::ThresholdFiltererMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   const int argc = static_cast<int>(argv.size());
   if (argc == 1)
   {
     std::cout << GetHelp() << '\n';
-    return 1;
+    return 0;
   }
   assert(!"TODO");
   return 0;
@@ -26,7 +20,7 @@ ribi::About ribi::ThresholdFiltererMenuDialog::GetAbout() const noexcept
   About a(
     "Richel Bilderbeek",
     "ThresholdFilterer",
-    "tool to pixelate image",
+    "threshold filtering tool",
     "January 8th of 2016",
     "2008-2016",
     "http://www.richelbilderbeek.nl/ToolThresholdFilterer.htm",
@@ -65,14 +59,3 @@ std::vector<std::string> ribi::ThresholdFiltererMenuDialog::GetVersionHistory() 
   };
 }
 
-#ifndef NDEBUG
-void ribi::ThresholdFiltererMenuDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif
