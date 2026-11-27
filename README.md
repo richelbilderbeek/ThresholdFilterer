@@ -1,5 +1,7 @@
 # ThresholdFilterer
 
+[![Codecov](https://codecov.io/gh/richelbilderbeek/ThresholdFilterer/branch/main/graph/badge.svg)](https://codecov.io/gh/richelbilderbeek/ThresholdFilterer)
+
 [Go to the nicely rendered website](https://richelbilderbeek.github.io/ThresholdFilterer/).
 
 Tool to do threshold filtering on images, written in C++ using Qt.
